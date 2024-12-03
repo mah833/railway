@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="booking-page">
+    <header>
+        <h1>Book a Ticket</h1>
+    </header>
+    <div class="form-container">
+        <form id="bookingForm">
+            <label for="name">Passenger Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="train">Train Name:</label>
+            <select id="train" required>
+                <option value="Shatabdi Express: New Delhi → Lucknow">Shatabdi Express: New Delhi → Lucknow(06:00 AM    12:00 PM)</option>
+                <option value="Rajdhani Express: Mumbai → Delhi">Rajdhani Express: Mumbai → Delhi(08:30 PM  06:30 AM (Next Day))</option>
+                <option value="Duronto Express: Kolkata → Chennai">Duronto Express: Kolkata → Chennai(09:00 PM  11:00 AM (Next Day))</option>
+                <option value="Humsafar Express: Patna → Ranchi">Humsafar Express: Patna → Ranchi(10:00 PM  07:00 AM (Next Day))</option>
+                <option value="NagpurExpress"> NagpurExpress:Mhow  → Pandhurna(08:00 PM 07:00 AM (Next Day))</option>
+                <option value="Tejas Express: Delhi → Chandigarh">Tejas Express: Delhi → Chandigarh(03:00 PM    06:00 PM)</option>
+                <option value="Vande Bharat Express: Ahmedabad → Mumbai">Vande Bharat Express: Ahmedabad → Mumbai(06:30 AM  10:30 AM)</option>
+                <option value="Garib Rath Express: Bangalore → Hyderabad">Garib Rath Express: Bangalore → Hyderabad(05:30 PM    05:00 AM (Next Day))</option>
+                <option value="Jan Shatabdi Express: Jaipur → Agra">Jan Shatabdi Express: Jaipur → Agra(07:00 AM    10:00 AM)</option>
+                <option value="Sampark Kranti Express: Goa → New Delhi">Sampark Kranti Express: Goa → New Delhi(08:00 AM    10:00 PM)</option>
+                <option value="Mahamana Express: Varanasi → Bhopal">Mahamana Express: Varanasi → Bhopal(07:15 PM    07:15 AM (Next Day))</option>
+                <option value="Kavi Guru Express: Howrah → Bolpur">Kavi Guru Express: Howrah → Bolpur(04:00 PM  08:00 PM)</option>
+                <option value="Antyodaya Express: Pune → Nagpur">Antyodaya Express: Pune → Nagpur(06:00 AM  03:00 PM)</option>
+                <option value="Yuva Express: Delhi → Kanpur">Yuva Express: Delhi → Kanpur(05:45 PM  10:30 PM)</option>
+                <option value="Gatimaan Express: Delhi → Agra">Gatimaan Express: Delhi → Agra(08:10 AM  09:50 AM)</option>
+            </select>
+
+            <label for="seats">Number of Seats:</label>
+            <input type="number" id="seats" min="1" required>
+
+            <button type="submit">Book Ticket</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

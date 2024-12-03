@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancel Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cancel-page">
+    <header>
+        <h1>Cancel a Ticket</h1>
+    </header>
+    <div class="form-container">
+        <form id="cancelForm">
+            <label for="cancelName">Passenger Name:</label>
+            <input type="text" id="cancelName" required>
+
+            <label for="cancelSeats">Number of Seats to Cancel:</label>
+            <input type="number" id="cancelSeats" min="1" required>
+
+            <button type="submit">Cancel Ticket</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
